@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: 
+  url("IMG_9648.JPG"), 
+  linear-gradient(to right, black , black, rgb(7, 7, 29), black);
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  background-position: 80% 30%, center;
+  background-size: 750px 1000px, cover;
+}
+
+.header {
+  color: rgb(197, 186, 186);
+  display: flex;
+  flex-shrink: 1;
+  flex-grow: 0;
+  flex-basis: auto;
+  gap: 25px;
+  height: 60px;
+  font-size: 14px;
+  cursor: pointer;
+  align-items: center;
+  background-image: linear-gradient(to bottom, 
+  rgba(0, 0, 0, 0.9),
+  rgba(0, 0, 0, 0.3),
+  rgb(52, 52, 52, 0.05));
+}
+
+.Netflix {
+  color: red;
+  font-family: "Monoton", sans-serif;
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+.Hem {
+  color: white;
+  margin-left: 15px;
+}
+
+.kategories:hover {
+  color: rgba(197, 186, 186, 0.8);
+}
+
+.iconrow {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-left: 750px;
+}
+
+.sokikon {
+  width: 20px;
+}
+
+.bellikon {
+  width: 20px;
+}
+
+.profileikon {
+  width: 30px;
+}
+
+.downikon {
+  width: 8px;
+}
+
+#textside {
+  margin-left: 50px;
+  margin-top: -30px;
+}
+
+h1 {
+  color: white;
+  font-size: 90px;
+  font-family: "New Rocker", system-ui;
+  margin-top: -30px;
+}
+
+h1::first-letter {
+  font-size: 130px;
+  vertical-align: -0.1em;
+}
+
+#Nserie {
+margin-top: 200px;
+display: flex;
+}
+
+.serie {
+  color: rgb(197, 186, 186);
+  font-size: 20px;
+  letter-spacing: 14px;
+  margin-left: 14px;
+  margin-top: 16px;
+}
+
+.N {
+  color: red;
+  font-size: 35px;
+  font-family: "Monoton", sans-serif;
+}
+
+.season{
+  color: white;
+  font-size: 30px;
+}
+
+.information {
+  color: rgb(197, 186, 186);
+  margin-top: 20px;
+  font-size: 19px;
+}
+
+button {
+
+  display: inline-flex;
+  align-items: center;       
+  justify-content: center;  
+  gap: 8px;                 
+  width: 150px;
+  height: 35px;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.play {
+background-color: white;
+}
+
+.playikon {
+  width: 20px;
+}
+
+.play:hover {
+background-color: rgba(255, 255, 255, 0.7);
+}
+
+.moreinfo {
+  margin-left: 10px;
+  background-color: rgb(65, 62, 62);
+  color: white;
+}
+
+.informationikon {
+  width: 20px;
+}
+
+.moreinfo:hover {
+background-color: rgba(65, 62, 62, 0.8);
+}
+
+.myList {
+  color: white;
+  margin-top: 160px;
+  font-size: 20px;
+}
+
+div.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 4px;
+}
+
+img {
+  width: 270px;
+}
